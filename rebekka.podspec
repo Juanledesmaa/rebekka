@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "rebekka"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "Rebekka - FTP/FTPS client in Swift."
   s.homepage     = "https://github.com/Constantine-Fry/rebekka/"
   s.license      = "BSD 2-Clause License"
