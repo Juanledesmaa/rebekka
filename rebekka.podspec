@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.9"
   s.source        = { :git => "https://github.com/Constantine-Fry/rebekka", :tag => "1.0.2" }
+  s.source_files  = "Classes", "Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
-  s.ios.deployment_target = '8.0'
 
   s.source_files  = 'rebekka-source/**/*.swift'
   s.requires_arc  = true
