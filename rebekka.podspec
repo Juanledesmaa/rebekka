@@ -21,7 +21,8 @@ Pod::Spec.new do |s|
   s.source        = { :git => "https://github.com/Constantine-Fry/rebekka", :tag => "1.0.2" }
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
-
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
+  
   s.source_files  = 'rebekka-source/**/*.swift'
   s.requires_arc  = true
 end
